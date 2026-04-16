@@ -20,18 +20,18 @@ Learning and continuous improvement close the loop through structured retrospect
 
 | Document | Description |
 |---|---|
-| [Project Management Overview](octoacme-project-management-overview.md) | High-level introduction to OctoAcme's project management approach, principles, roles, artifacts, and lifecycle. |
-| [Project Initiation Guide](octoacme-project-initiation.md) | How to start a project: problem statements, One-pager template, stakeholder identification, and kick-off checklist. |
-| [Project Planning](octoacme-project-planning.md) | Scope definition, backlog creation, milestone planning, resource allocation, and Definition of Done. |
-| [Execution & Tracking](octoacme-execution-and-tracking.md) | Sprint ceremonies, GitHub Projects board workflow, PR standards, blocker triage, and daily/weekly rhythms. |
-| [Risks & Communication](octoacme-risks-and-communication.md) | Risk Register format, escalation paths, stakeholder communication cadence, and dependency management. |
-| [Release & Deployment Guide](octoacme-release-and-deployment.md) | Pre-flight checklists, staging validation, rollback plans, post-deploy verification, and incident playbooks. |
-| [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | Retrospective formats, action item tracking, blameless incident review, and process refinement practices. |
-| [Roles & Personas](octoacme-roles-and-personas.md) | Definitions, responsibilities, goals, and communication patterns for each role on OctoAcme project teams. |
+| [Project Management Overview](./octoacme-project-management-overview.md) | High-level introduction to OctoAcme's project management approach, principles, roles, artifacts, and lifecycle. |
+| [Project Initiation Guide](./octoacme-project-initiation.md) | How to start a project: problem statements, One-pager template, stakeholder identification, and kick-off checklist. |
+| [Project Planning](./octoacme-project-planning.md) | Scope definition, backlog creation, milestone planning, resource allocation, and Definition of Done. |
+| [Execution & Tracking](./octoacme-execution-and-tracking.md) | Sprint ceremonies, GitHub Projects board workflow, PR standards, blocker triage, and daily/weekly rhythms. |
+| [Risks & Communication](./octoacme-risks-and-communication.md) | Risk Register format, escalation paths, stakeholder communication cadence, and dependency management. |
+| [Release & Deployment Guide](./octoacme-release-and-deployment.md) | Pre-flight checklists, staging validation, rollback plans, post-deploy verification, and incident playbooks. |
+| [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md) | Retrospective formats, action item tracking, blameless incident review, and process refinement practices. |
+| [Roles & Personas](./octoacme-roles-and-personas.md) | Definitions, responsibilities, goals, and communication patterns for each role on OctoAcme project teams. |
 
 ---
 
-## Key Principles and Values
+## Key Principles & Values
 
 | Principle | What It Means in Practice |
 |---|---|
@@ -43,12 +43,13 @@ Learning and continuous improvement close the loop through structured retrospect
 
 ---
 
-## How to Use These Docs
+## Contributing & Usage Guidance
 
-- **Starting a new project?** Begin with the [Project Management Overview](octoacme-project-management-overview.md) and the [Project Initiation Guide](octoacme-project-initiation.md).
-- **Onboarding to a team?** Review [Roles & Personas](octoacme-roles-and-personas.md) to understand responsibilities, then read the process docs most relevant to your role.
+- **Starting a new project?** Begin with the [Project Management Overview](./octoacme-project-management-overview.md) and the [Project Initiation Guide](./octoacme-project-initiation.md).
+- **Onboarding to a team?** Review [Roles & Personas](./octoacme-roles-and-personas.md) to understand responsibilities, then read the process docs most relevant to your role.
 - **Looking for a specific process?** Use the [Process Documentation Index](#process-documentation-index) above.
-- **Updating or adding documentation?** Store new process docs in this `docs/` folder using the `octoacme-<topic>.md` naming convention. Add a row to the index table above so it remains discoverable.
+- **Updating or adding documentation?** Store new process docs in this `docs/` folder using the `octoacme-<topic>.md` naming convention. Use the `.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml` template to request changes so they are reviewed and tracked. Add a row to the index table above so the doc remains discoverable.
+- **Project-specific deviations?** Document the rationale and approval in the project README or decision log.
 - **Integrating with Copilot Spaces?** Copy or reference relevant docs into your repository's `.copilot/` folder to give Copilot Spaces role-specific or project-specific context.
 
 > **Related artifacts** such as project charters, risk registers, and retrospective notes should be stored in the relevant project repository and linked from the project's own README, not committed here.
